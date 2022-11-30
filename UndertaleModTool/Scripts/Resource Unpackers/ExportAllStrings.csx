@@ -26,7 +26,7 @@ Would you like to overwrite it?");
     }
 }
 
-using (StreamWriter writer = new StreamWriter(exportFolder + "strings.txt"))
+using (StreamWriter writer = new StreamWriter(exportFolder + "\\strings.txt"))
 {
     foreach (var str in Data.Strings)
     {
